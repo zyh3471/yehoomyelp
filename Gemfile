@@ -83,3 +83,4 @@ gem 'figaro'
 gem 'carrierwave-aws'
 
 gem "fog-aws"
+gem 'sendgrid-ruby'
