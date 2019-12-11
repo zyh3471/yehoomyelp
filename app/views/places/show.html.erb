@@ -105,6 +105,6 @@
 
 <div class="row">
   <% @place.photos.each do |photo| %>
-    <%= image_tag @photo.picture.url, class: 'img-fluid' %>
+    <%= photo.picture.url %>
   <% end %>
 </div>

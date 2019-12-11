@@ -10,10 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_05_013310) do
+ActiveRecord::Schema.define(version: 2019_12_11_111817) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "add_new_2s", force: :cascade do |t|
+  end
 
   create_table "comments", id: :serial, force: :cascade do |t|
     t.text "message"
@@ -32,6 +35,7 @@ ActiveRecord::Schema.define(version: 2019_09_05_013310) do
     t.string "picture"
     t.text "caption"
     t.integer "place_id"
+    t.integer "user_id"
   end
 
   create_table "places", force: :cascade do |t|
