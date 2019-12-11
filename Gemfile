@@ -82,6 +82,8 @@ gem 'carrierwave', '~> 2.0'
 gem 'figaro'
 gem 'carrierwave-aws'
 gem 'stripe'
+gem "mini_magick"
+
 
 gem "fog-aws"
 gem 'sendgrid-ruby'
