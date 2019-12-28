@@ -69,21 +69,21 @@ gem 'simple_form'
 
 gem 'geocoder'
 
-gem 'figaro'
 
-source 'https://rails-assets.org' do
-  gem 'rails-assets-tether', '>= 1.3.3'
-end
 
 gem "font-awesome-rails"
 gem 'devise'
 
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 1.0'
 gem 'figaro'
-gem 'carrierwave-aws'
+# gem 'carrierwave-aws'
 gem 'stripe'
 gem "mini_magick"
 
 
 gem "fog-aws"
 gem 'sendgrid-ruby'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
